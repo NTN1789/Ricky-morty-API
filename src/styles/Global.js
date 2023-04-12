@@ -7,6 +7,9 @@ export const Global = createGlobalStyle `
 		padding: 0;
 		box-sizing: border-box;
 		border: 0;
+
+
+  
     }
 
 

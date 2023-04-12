@@ -9,39 +9,44 @@ export const Main = styled.main`
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background-color:#293905 ;
+
 
 	.container-cards {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
-		gap: 4rem;
+		gap: 10rem;
 	}
 `;
 
 export const Card = styled.li`
-	width:50vh;
+	width:45vh;
 	
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	text-align:center;
 	background-color: #303032;
-	border-radius:70px;
+	border-radius:62px;
 	color: #ffffff;
 	cursor: pointer;
-    overflow: hidden;
-        box-shadow: 0px 0px 15px -5px ;
-        transition: 0.3s;
+	&:hover{
+		color:#293905;
+	}
+
+        box-shadow: 0px 0px 25px -5px ;
+        transition: 0.4s;
         animation: ease-in;
-		gap:20px;
+		gap:4px;
 		&:hover{
 			transform: scale(1.1);
         box-shadow: 0px 0px 15px 0px ;
+		background-color:green;
 		}
 	
-		h1{
-			text-align:center
-		}
+	
 
 	
 
